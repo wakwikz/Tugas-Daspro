@@ -3,13 +3,14 @@ public class HargaBayar02{
     public static void main (String[]args){
         Scanner input = new Scanner (System.in);
 
-        int harga, jumlah;
+        int harga, jumlah, jumlahHalaman;
         double disc, total, bayar, jmlDisc;
+        String merk;
 
         System.out.println("Masukkan merk buku " );
-        String merk = input.next();
+        merk = input.next();
         System.out.println("Masukkan jumlah halaman buku ");
-        int jumlahHalaman = input.nextInt();
+        jumlahHalaman = input.nextInt();
         System.out.println("Masukkan harga barang yang dibeli ");
         harga = input.nextInt();
         System.out.println("Masukkan jumlah barang yang dibeli ");
