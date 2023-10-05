@@ -6,13 +6,13 @@ public class PemilihanPercobaan202 {
         float uas, uts, kuis, tugas, total;
         
 
-        System.out.println("Nilai uas       :");
+        System.out.println("Nilai uas      :");
         uas = input.nextFloat();
-        System.out.println("Nilai uts       :");
+        System.out.println("Nilai uts      :");
         uts = input.nextFloat();
-        System.out.println("Nilai kuis      :");
+        System.out.println("Nilai kuis     :");
         kuis = input.nextFloat();
-        System.out.println("Nilai tugas     :");
+        System.out.println("Nilai tugas    :");
         tugas = input.nextFloat();
 
         total = (uas*0.4F)+(uts*0.3F)+(kuis*0.1F)+(tugas*0.2F);
