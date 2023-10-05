@@ -6,7 +6,7 @@ public static void main (String[]args){
     double keliling, luas;
     double phi = 3.14;
 
-    System.out.println("Masukkan jari-jari Lingkaran: ");
+    System.out.println("Masukkan jari-jari Lingkaran:");
     r=input.nextInt();
 
     keliling= 2*phi*r;

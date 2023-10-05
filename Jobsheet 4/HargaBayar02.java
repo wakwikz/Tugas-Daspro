@@ -11,9 +11,9 @@ public class HargaBayar02{
         merk = input.next();
         System.out.println("Masukkan jumlah halaman buku ");
         jumlahHalaman = input.nextInt();
-        System.out.println("Masukkan harga barang yang dibeli ");
+        System.out.println("Masukkan harga barang yang dibeli");
         harga = input.nextInt();
-        System.out.println("Masukkan jumlah barang yang dibeli ");
+        System.out.println("Masukkan jumlah barang yang dibeli");
         jumlah=input.nextInt();
         System.out.println("Masukkan diskon ");
         disc=input.nextDouble();

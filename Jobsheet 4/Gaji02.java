@@ -11,7 +11,7 @@ public class Gaji02{
         potGaji=input.nextInt();
         System.out.println("Masukkan Jumlah Hari Masuk Kerja Anda ");
         jmlMasuk=input.nextInt();
-        System.out.println("Masukkan Jumlah Hari Tidak Masuk Kerja Anda ");
+        System.out.println("Masukkan Jumlah Hari Tidak Masuk Kerja Anda");
         jmlTdkMasuk=input.nextInt();
 
         totGaji=(jmlMasuk*gaji)-(jmlTdkMasuk*potGaji);
