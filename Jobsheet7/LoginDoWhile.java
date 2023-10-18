@@ -18,5 +18,6 @@ public class LoginDoWhile {
             System.out.println("Login tidak berhasil");
           }
         }
+    input.close();
     }
 }

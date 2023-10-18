@@ -26,5 +26,6 @@ public class ForKelipatan02 {
         } else {
             System.out.println("Tidaka ada bilangan kelipatan " + kelipatan + " ditemukan ");
         }
+    input.close();
     }
 }

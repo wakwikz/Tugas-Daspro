@@ -31,5 +31,6 @@ public class DoWhile02 {
                 break;
             }
         }while (jatahCuti > 0);
+    input.close();
     }
 }
