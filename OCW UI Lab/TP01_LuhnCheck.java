@@ -5,7 +5,7 @@ public class TP01_LuhnCheck{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        boolean isValid;
+        boolean isValdi;
         int sumOfDoubleEvenPlace = 0, sumOfOddPlace = 0, getSize, nilai;
         String nomorKartu;
 
@@ -42,8 +42,8 @@ public class TP01_LuhnCheck{
         getSize = sumOfDoubleEvenPlace + sumOfOddPlace;
         System.out.println("Penjumlahan Digit genap dan ganjil "+getSize);
 
-        isValid = getSize % 10 == 0;
-        if (isValid) {
+        isValdi = getSize % 10 == 0;
+        if (isValdi) {
             System.out.println("Nomor Kartu Anda Valid");
         } else {
             System.out.println("Nomor Kartu Anda Tidak Valid");
