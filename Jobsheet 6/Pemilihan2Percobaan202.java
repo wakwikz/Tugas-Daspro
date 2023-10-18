@@ -28,5 +28,6 @@ public class Pemilihan2Percobaan202 {
         else {
         System.out.println("Bukan segitiga");
         }
+    input02.close();
     }
 }

@@ -19,5 +19,6 @@ public class Pemilihan2Percobaan102{
             System.out.println("Tahun");
         }
     }
+    input02.close();
 }
 }

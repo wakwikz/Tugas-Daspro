@@ -34,5 +34,6 @@ public class Pemilihan2Percobaan302 {
             System.out.println("Masukan kategori salah");
 
         }
+    input02.close();
     }
 }
