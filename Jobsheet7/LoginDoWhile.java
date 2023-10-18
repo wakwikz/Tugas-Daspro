@@ -6,13 +6,11 @@ public class LoginDoWhile {
 
         boolean berhasil=false;
         String username, password;
-
         while (berhasil == false){
         System.out.println("Masukkan username: ");
         username = input.nextLine();
         System.out.println("Masukkan password: ");
         password = input.nextLine();
-
         if (username.equals("hq") && password.equals("123")) {
             berhasil = true;
             System.out.println("Login berhasil");
