@@ -15,6 +15,7 @@ public static void main (String[]args){
     System.out.println(keliling);
     System.out.println(luas);
 
+    input.close();
 }
 
 }
