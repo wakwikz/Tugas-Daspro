@@ -27,6 +27,6 @@ public class PenghitungAirMancur {
         diameter = (int) Math.round(keliling/Math.PI);
 
         System.out.println("Sehingga anda membutuhkan lebar lahan minimal: " + diameter + "tiles");
-
+    input.close();
     }
 }
