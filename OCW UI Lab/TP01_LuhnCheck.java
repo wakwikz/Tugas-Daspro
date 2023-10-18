@@ -48,5 +48,6 @@ public class TP01_LuhnCheck{
         } else {
             System.out.println("Nomor Kartu Anda Tidak Valid");
         }
+    input.close();
     }
 }
