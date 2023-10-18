@@ -14,9 +14,8 @@ public class Bank02 {
         bunga = lamaMenabung*persentaseBunga*jumlahTabunganAwal;
         jumlahTabunganAkhir=bunga+jumlahTabunganAwal;
 
-
         System.out.println("Jumlah bunga sebesar " + bunga);
         System.out.println("Jumlah tabungan akhir anda adalah " + jumlahTabunganAkhir);
+        input.close();
     }
-    
 }
