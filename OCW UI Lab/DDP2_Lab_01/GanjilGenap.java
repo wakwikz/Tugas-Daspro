@@ -16,5 +16,6 @@ public class GanjilGenap{
         } else {
             System.out.println("Nomor plat anda ganjil");
         }
+    input.close();
     }
 }

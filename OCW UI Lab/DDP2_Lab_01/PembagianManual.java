@@ -20,5 +20,6 @@ public class PembagianManual {
         }
 
         System.out.println("Hasil pembagian " + angkaAwal + " dengan " + pembagi + " adalah " + hasil + " dengan sisa " + sisa);
+    input.close();
     }
 }

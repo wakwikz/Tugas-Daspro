@@ -18,5 +18,6 @@ public class HitungDeret {
             }
         }
         System.out.println("Jumlah deret yang dihitung adalah "+ jumlah + " dan bilangan yang ganjil ada " +Ganjil);
+    input.close();
     }
 }

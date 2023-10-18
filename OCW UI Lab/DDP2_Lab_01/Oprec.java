@@ -17,5 +17,6 @@ public class Oprec {
         } else {
             System.out.println("Maaf, kamu belum dapat diterima di " +nama);
         }
+    input.close();
     }
 }

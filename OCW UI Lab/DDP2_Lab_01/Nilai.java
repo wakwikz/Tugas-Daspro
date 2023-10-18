@@ -20,5 +20,6 @@ public class Nilai {
         }else {
             System.out.println("Input nilai anda salah");
         }
+    input.close();
     }
 }

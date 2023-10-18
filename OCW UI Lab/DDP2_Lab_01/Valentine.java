@@ -17,5 +17,6 @@ public class Valentine {
         } else {
             System.out.println("Selamat, coklatmu diterima oleh " +nama);
         }
+    input.close();
     }
 }
