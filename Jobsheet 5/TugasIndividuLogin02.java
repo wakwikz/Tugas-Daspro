@@ -15,5 +15,6 @@ public class TugasIndividuLogin02 {
         } else {
             System.out.println("Login tidak berhasil");
         }
+    input.close();
     }
 }

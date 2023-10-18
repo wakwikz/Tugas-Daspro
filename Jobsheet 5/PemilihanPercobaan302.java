@@ -31,5 +31,6 @@ public class PemilihanPercobaan302 {
             System.out.println(angka1 + " / " + angka2 + "=" + hasil);
             break;
         }
+    input.close();
     }
 }

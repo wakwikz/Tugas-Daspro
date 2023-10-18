@@ -32,5 +32,6 @@ public class PemilihanPercobaan202 {
         } else {
             System.out.println("Nilai akhir = " + total + "Sehingga Nilai anda E, Gagal");
         }
+        input.close();
     }
 }

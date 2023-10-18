@@ -13,5 +13,6 @@ public class TugasIndividuSenjata02 {
         } else {
             System.out.println("Gunakan ranged weapon");
         }
+    input.close();
     }
 }
