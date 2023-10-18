@@ -12,7 +12,6 @@ public class ContohOperator02 {
         System.out.println("Hasil x ^ y adalah " + z);
         z%=2;
         System.out.println("Hasil akhir " + z);
-        input.close();
 
     }
 }
