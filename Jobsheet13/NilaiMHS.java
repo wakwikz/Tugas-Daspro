@@ -8,7 +8,7 @@ public class NilaiMHS {
     static String[] namaMahasiswa;
     static double[][] nilaiTugas;
 
-    public static void inputNilai() {
+    static void inputNilai() {
         System.out.print("Masukkan jumlah mahasiswa: ");
         jumlahMahasiswa = input.nextInt();
         namaMahasiswa = new String[jumlahMahasiswa];
@@ -33,7 +33,7 @@ public class NilaiMHS {
         }
     }
 
-    public static void tampilNilai() {
+    static void tampilNilai() {
         System.out.println("Nilai Tugas Mahasiswa:");
         System.out.printf("%-20s", "Nama Mahasiswa");
 
@@ -51,7 +51,7 @@ public class NilaiMHS {
         }
     }
 
-    public static void mingguNilaiTertinggi() {
+    static void mingguNilaiTertinggi() {
         int mingguTertinggi = 0;
         double nilaiTertinggi = 0;
 
@@ -70,7 +70,7 @@ public class NilaiMHS {
         System.out.println("Minggu ke-" + mingguTertinggi + " memiliki nilai tertinggi.");
     }
 
-    public static void nilaiTertinggiMahasiswa() {
+    static void nilaiTertinggiMahasiswa() {
         double[] totalNilaiMahasiswa = new double[jumlahMahasiswa];
         for (int i = 0; i < jumlahMahasiswa; i++) {
             for (int j = 0; j < jumlahMinggu; j++) {
