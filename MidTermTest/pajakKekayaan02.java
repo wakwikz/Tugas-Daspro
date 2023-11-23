@@ -69,6 +69,7 @@ public class pajakKekayaan02 {
             }
             
         System.out.println("total pajak yang harus dibayar: "+totalPajak);
+        input.close();
         }
     }
 }
